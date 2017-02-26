@@ -1,0 +1,48 @@
+#navcontainer ul
+{
+padding-left: 0;
+margin-left: 0;
+background-color:#000000;
+color:#ffffff;
+float: left;
+width: 1000px;
+font-size:15px;
+font-weight:550;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+padding-bottom:6px;
+padding-top:6px;
+padding-left:6px;
+padding-right:6px;
+background-color: #000000;
+color:#ffffff;
+text-decoration: none;
+float: left;
+border-right: 1px solid #fff;
+font-size:20px;
+}
+
+#navcontainer ul li a:hover
+{
+background-color:#970000;
+color:#FFFFFF;
+}
+
+#navcontainer .active
+{
+background-color:#970000;
+color:#FFFFFF;
+}
+
+ 
+#navcontainer .active a
+{
+background-color:#970000;
+color:#FFFFFF;
+}
+
+
